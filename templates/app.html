@@ -1,0 +1,17 @@
+<!doctype html>
+<head>
+</head>
+<body class="container">
+  <script type="text/javascript">
+    window.response = {{response | tojson}};
+  </script>
+    
+    <div id="root"></div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+   <!-- Include all compiled plugins (below), or include individual files as needed -->
+<!--    <script src="js/bootstrap.min.js"></script>
+ -->   <script type="text/javascript" src="{{ url_for('static', filename='bundle.js')}}"></script>
+</body>
+</html>
