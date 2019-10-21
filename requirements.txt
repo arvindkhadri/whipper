@@ -15,4 +15,4 @@ MarkupSafe==1.0
 Pillow==2.9.0
 requests==2.13.0
 urllib3==1.22
-Werkzeug==0.13
+Werkzeug==0.15.3
